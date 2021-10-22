@@ -1,10 +1,20 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap');
+
 .section1 {
     background-color: rgba(27, 65, 5, 0.726);
 }
 
 h1 {
     color: white;
-    background-color: #19d839d7;
+    background-color:pink;
+
+    font-family:Roboto;
+    font-weight: 400;
+    text-shadow: -2px -2px 4px black);
+
+    text-transform: capitalize;
+    text-align:left;
 }
 
 h2 {
