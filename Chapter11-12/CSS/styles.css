@@ -5,27 +5,34 @@
     background-color: rgba(27, 65, 5, 0.726);
 }
 
-h1 {
-    color: white;
-    background-color:pink;
-
-    font-family:Roboto;
-    font-weight: 400;
-    text-shadow: -2px -2px 4px black);
-
-    text-transform: capitalize;
-    text-align:left;
-}
-
-h2 {
-    color: rgba(255, 255, 0, 0.596);
-    background-color: #470844;
-    
-}
-
 ul {
     list-style-type: none;
 }
 a {
     text-decoration: none;
+}
+
+h1, h2 {
+    font-family: Roboto, sans-serif;
+}
+h1 {
+    font-weight: 400;
+    text-transform: uppercase;
+    color: rgb(247, 64, 8);
+    text-shadow: -2px 2px 4px #00f;
+}
+
+h2 {
+    font-weight: 400;
+    color: tomato;
+    text-shadow: -2px 2px 4px #00f;
+}
+
+p {
+    font-family: Roboto, sans-serif;
+    font-weight: 300;
+    font-size: 30px;
+    background-color:rgb(89, 218, 95);
+    color: white;
+    text-shadow: -2px 2px 4px #000;
 }
